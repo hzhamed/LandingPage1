@@ -1,20 +1,50 @@
-* {
-	margin: 0;
-	padding: 0;
-}
-
+/*
+*{
+	background-color: lightblue;
+}*/
 #container{
-	width: 1200px;
-	margin: 10px auto;
-	font-family: arial, verdana, sans-serif;
 	
 }
 	#header{
 		background: brown;
-		width: 1180px;
-		padding: 20px 10px;
+	/*	padding: 20px 10px;*/
 		color: white;
 		display: inline-block;
+			width: 100%;
+	}
+
+	#get{
+		padding-top: 5%;
+		padding-bottom: 10%;
+		font-size: 20px; 
+
+	}
+	#green{
+		color: green;
+	}
+
+	#enhance{
+		padding-bottom: 10%;
+	}
+
+	#div5{
+		padding-bottom: 5%;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	.box{
+
+		background-color: black;
+		text-align: center;
+
+	}
+
+	body{
+		text-align: center;
+		padding-left: 5%;
+		padding-right: 5%;
+		font-family: arial, verdana, sans-serif;
 	}
 
 	#left{
@@ -24,17 +54,38 @@
 	#right{
 		float:right;
 	}
+	#bright{
+		float:right;
+		padding-right: 75px;
+	}
+
+	.lefth{
+		float: left;
+	}
+
+	.righth{
+		float: right;
+	}
 
 	#middle{
+
 		text-align: center;
+		width: 100%;
 	}
 
 	#footer{
 		background: brown;
-		width: 1180px;
-		padding: 20px 10px;
 		color: white;
 		display: inline-block;
+		width: 100%;
+
+	}
+
+	#services{
+		width: ;
+		text-align: center;
+		padding-left: 10%;
+		padding-right: 5%;
 
 	}
 
@@ -42,10 +93,95 @@
 		float: left;
 	}
 
-	#table{
-		text-align: center;
-	}
 
 	#icons{
 		float: right;
 	}
+
+	.grid {
+  /* Grid Fallback */
+  display: flex;
+  flex-wrap: wrap;
+  
+  /* Supports Grid */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-auto-rows: minmax(150px, auto);
+  grid-gap: 1em;
+}
+
+.module {
+  /* Demo-Specific Styles */
+  background: #eaeaea;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 200px;
+  width: 400px
+  
+  /* Flex Fallback */
+  margin-left: 5px;
+  margin-right: 5px;
+  flex: 1 1 200px;
+}
+
+/* If Grid is supported, remove the margin we set for the fallback */
+@supports (display: grid) {
+  .module {
+    margin: 0;
+  }
+}
+
+img{
+	height: 50px;
+/*	display: inline-block;
+	float: left;*/
+}
+
+.theight{
+	padding-top: 45px
+	padding-bottom: 45px;
+	padding-right: 5%;
+	font-size: 50%;
+	width: 100%;
+	text-align: left;
+	padding-left: 5%;
+/*	float: left;*/
+}
+
+.foo
+{
+    padding-right: 20px;
+}
+
+/*.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}*/
+.button5 {border-radius: 50%;}
+
+#bleft{
+	float: left;
+	padding-left: 125px;
+	text-align: left;
+	padding-bottom: 3%;
+	font-size: 20px;
+}
+
+#bheader{
+	
+	/*	padding: 20px 10px;*/
+		display: inline-block;
+			width: 100%;
+	}
+
+#bright{
+/*	padding-right: 10px;*/
+}
