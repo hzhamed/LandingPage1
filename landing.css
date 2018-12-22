@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#container{
+	width: 1200px;
+	margin: 10px auto;
+	font-family: arial, verdana, sans-serif;
+	
+}
+	#header{
+		background: brown;
+		width: 1180px;
+		padding: 20px 10px;
+		color: white;
+		display: inline-block;
+	}
+
+	#left{
+		float: left;
+	}
+
+	#right{
+		float:right;
+	}
+
+	#middle{
+		text-align: center;
+	}
+
+	#footer{
+		background: brown;
+		width: 1180px;
+		padding: 20px 10px;
+		color: white;
+		display: inline-block;
+
+	}
+
+	#contact{
+		float: left;
+	}
+
+	#table{
+		text-align: center;
+	}
+
+	#icons{
+		float: right;
+	}
